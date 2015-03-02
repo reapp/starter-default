@@ -11,7 +11,7 @@
     "start": "reapp run"
   },
   "dependencies": {
-    "react": "^0.13.0-beta.1",
+    "react": "0.13.0-beta.1",
     "reapp-platform": "^1.0.0",
     "reapp-ui": "^0.10.0",
     "reapp-routes": "^0.9.0",
