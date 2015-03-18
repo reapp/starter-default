@@ -15,7 +15,7 @@ export default React.createClass({
         <View title={[this.props.handle, '{{reappName}}']}>
           <p>Hello, World!</p>
 
-          <Button onTap={() => this.transitionTo('sub')}>Go to sub view</Button>
+          <Button onTap={() => this.context.router.transitionTo('sub')}>Go to sub view</Button>
         </View>
 
         {this.childRouteHandler()}
