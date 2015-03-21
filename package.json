@@ -1,6 +1,6 @@
 {
   "author": "Your Name Here",
-  "name": "{{reappName}}",
+  "name": "REAPP_NAME",
   "repository": "",
   "description": "",
   "version": "1.0.0",
@@ -11,11 +11,11 @@
     "start": "reapp run"
   },
   "dependencies": {
-    "react": "0.13.1",
+    "react": "^0.13.1",
+    "react-router": "^0.13.0",
     "reapp-platform": "^1.0.0",
     "reapp-ui": "^0.11.0",
     "reapp-routes": "^0.10.0",
-    "react-router": "^0.13.0",
     "reapp-request": "^0.2.0",
     "reapp-component": "^1.0.0"
   }

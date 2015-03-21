@@ -1,10 +1,7 @@
-// needed for now, see issue #1 in reapp-ui
+// see https://github.com/reapp/reapp-ui/issues/1
 import 'reapp-ui';
 
-// import our theme
-import './theme/theme';
-
-// routes & run
+// import routes and run
 import Router from 'reapp-routes/react-router';
 import Routes from './routes';
 
