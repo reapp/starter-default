@@ -1,4 +1,4 @@
-import { React, Reapp, View, Button, NestedViewList } from 'reapp-kit';
+import { Reapp, React, NestedViewList, View, Button } from 'reapp-kit';
 
 export default Reapp(class extends React.Component {
   render() {
