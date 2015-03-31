@@ -14,9 +14,7 @@ export default Reapp(class extends React.Component {
           </Button>
         </View>
 
-        {Child &&
-          <Child />
-        }
+        {Child && Child()}
       </NestedViewList>
     );
   }
