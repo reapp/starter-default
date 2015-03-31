@@ -1,7 +1,8 @@
 import { makeStyles } from 'reapp-ui';
+const requirer = name => require(`./styles/${name}`);
 
-var requirer = (name) => require('./styles/' + name);
+// override default component styles
 
-module.exports = makeStyles(requirer, [
+export default makeStyles(requirer, [
   'TitleBar'
 ]);
