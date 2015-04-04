@@ -1,6 +1,6 @@
 import { Reapp, React, NestedViewList, View, Button } from 'reapp-kit';
 
-export default Reapp(class extends React.Component {
+class Home extends React.Component {
   render() {
     const Child = this.props.child;
 
@@ -18,4 +18,6 @@ export default Reapp(class extends React.Component {
       </NestedViewList>
     );
   }
-});
+}
+
+export default Reapp(Home);
