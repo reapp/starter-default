@@ -2,8 +2,6 @@ import { Reapp, React, NestedViewList, View, Button } from 'reapp-kit';
 
 class Home extends React.Component {
   render() {
-    const Child = this.props.child;
-
     return (
       <NestedViewList {...this.props.viewListProps}>
         <View title="REAPP_NAME">
@@ -14,10 +12,18 @@ class Home extends React.Component {
           </Button>
         </View>
 
-        {Child && Child()}
+        {this.props.child()}
       </NestedViewList>
     );
   }
 }
 
 export default Reapp(Home);
+
+/*
+ This is your root route. When you wrap it with Reapp()
+ it passes your class two properties:
+
+  - viewListProps: Passes the scrollToStep to your ViewList so it animates
+  - child: The child route
+*/
