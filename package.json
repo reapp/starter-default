@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "react": "0.14.x",
-    "reapp-kit": "https://github.com/reapp/reapp-kit.git"
+    "reapp-kit": "^1.2.0"
   }
 }
